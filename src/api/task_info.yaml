@@ -18,9 +18,12 @@ readme: |
   To get started, you can run the following commands:
 
   ```bash
-  git clone git@github.com:openproblems-bio/<task-name>.git
+  git clone git@github.com:openproblems-bio/task_<task-name>.git
 
   cd <task-name>
+
+  # initialise submodule
+  scripts/init_submodule.sh
   
   # download resources
   scripts/download_resources.sh
